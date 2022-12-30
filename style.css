@@ -76,3 +76,15 @@
     background-position: 0 400%;
   }
 }
+
+.side-nav .logo {
+  width: 60px;
+  cursor: pointer;
+}
+
+.side-nav a {
+  text-decoration: none;
+  color: #fff;
+  transform: rotate(-90deg) translateX(50%);
+  width: max-content;
+}
