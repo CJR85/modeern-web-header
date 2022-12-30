@@ -64,3 +64,15 @@
   background-size: 100% 500%;
   background-position: 0 40%;
 }
+
+.side-nav:hover {
+  animation: backcolor 20s linear infinite reverse;
+}
+@keyframes backcolor {
+  0% {
+    background-position: 0 0%;
+  }
+  100% {
+    background-position: 0 400%;
+  }
+}
